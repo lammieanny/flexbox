@@ -1,0 +1,29 @@
+body{
+    background-color: aquamarine;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    flex: 1;
+    text-align: center;
+    font-size: 30pt;
+    font-family: fantasy;
+    color: whitesmoke;
+    padding: 14px;
+    margin: 7px;
+    border: 4px solid blueviolet;
+    height: 100px;
+    background-color: coral;
+  
+}
+
+@media screen and (min-width: 800px) {
+    .row{
+        display: flex; 
+        flex-direction: row;
+    }
+}
+
